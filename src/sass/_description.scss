@@ -1,0 +1,34 @@
+.description {
+    grid-area: description;
+
+    h2 {
+        color: $Cyan;
+    }
+
+    h3 {
+        color: $BrightYellow;
+        font-weight: 700;
+    }
+
+    p {
+        color: $GrayishBlue;
+        line-height: 25px;
+        font-weight: 400;
+    }
+
+    @media screen and (min-width: 768px) {
+        h2 {
+            font-size: 3rem;
+        }
+
+        h3 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+            line-height: 2rem;
+        }
+    }
+
+}

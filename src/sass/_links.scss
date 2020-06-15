@@ -1,0 +1,30 @@
+.links {
+    grid-area: links;
+    background: rgba($color: $Cyan, $alpha: .8);
+
+    h3 {
+        color: $LightGray;
+    }
+
+    li {
+        list-style: none;
+        line-height: 20px;
+
+        a {
+            color: $LightGray;
+            opacity: .8;
+            text-decoration: none;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        h3 {
+            font-size: 2rem;
+        }
+
+        li {
+            font-size: 1.5rem;
+            line-height: 2rem;
+        }
+    }
+}
